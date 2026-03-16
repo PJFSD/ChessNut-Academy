@@ -1,0 +1,85 @@
+.footer {
+  background: #d8e3e6;
+  padding: 40px 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 22%;
+}
+
+.footer-col h3 {
+  margin-bottom: 15px;
+  color: #1c5c4c;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.email-input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.checkbox {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background: #1c6b57;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Cookie bar */
+
+.cookie-bar {
+  background: #1c6b57;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cookie-bar button {
+  margin-left: 10px;
+  padding: 6px 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+.settings {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.accept {
+  background: white;
+  color: #1c6b57;
+}
