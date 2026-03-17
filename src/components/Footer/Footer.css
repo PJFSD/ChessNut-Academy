@@ -83,3 +83,11 @@
   background: white;
   color: #1c6b57;
 }
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+}

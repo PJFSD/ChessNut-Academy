@@ -9,7 +9,6 @@ const Footer = () => {
 
         <div className="footer-container">
 
-          
           <div className="footer-col">
             <h3>ChessNut Academy</h3>
             <ul>
@@ -23,7 +22,6 @@ const Footer = () => {
             </ul>
           </div>
 
-           
           <div className="footer-col">
             <h3>Support</h3>
             <ul>
@@ -36,7 +34,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          
           <div className="footer-col">
             <h3>Social</h3>
 
@@ -46,7 +43,6 @@ const Footer = () => {
             </div>
           </div>
 
-          
           <div className="footer-col">
             <h3>Stay Connected</h3>
 
@@ -67,6 +63,12 @@ const Footer = () => {
           </div>
 
         </div>
+
+        
+        <div className="footer-bottom">
+          <p>© 2025 by ChessNut Academy.</p>
+        </div>
+
       </footer>
 
       {/* Cookie bar */}
