@@ -1,0 +1,15 @@
+.home-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.home-title {
+  margin-bottom: 40px;
+}
+
+.forms-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}

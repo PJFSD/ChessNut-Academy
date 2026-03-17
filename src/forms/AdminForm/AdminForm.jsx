@@ -4,7 +4,7 @@ import "./AdminForm.css";
 const AdminForm = () => {
     return (
         <div className="form">
-            <h2>Admin Form</h2>
+            <h2>Admin Login</h2>
 
             <input type="text" placeholder="Admin Name" />
             <input type="password" placeholder="Password" />
