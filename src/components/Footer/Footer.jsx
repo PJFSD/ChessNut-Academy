@@ -66,7 +66,7 @@ const Footer = () => {
 
         
         <div className="footer-bottom">
-          <p>© 2025 by ChessNut Academy.</p>
+          <p>@ 2025 by ChessNut Academy.</p>
         </div>
 
       </footer>
