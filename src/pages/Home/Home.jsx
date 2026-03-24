@@ -2,6 +2,8 @@ import React from "react";
 import StudentForm from "../../forms/StudentForm/StudentForm";
 import AdminForm from "../../forms/AdminForm/AdminForm";
 import UserForm from "../../forms/UserForm/UserForm";
+import TournamentLogin from "../../forms/TournamentForm/TournamentLogin";
+import TournamentRegister from "../../forms/TournamentForm/TournamentRegister";
 import "./Home.css";
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
         <StudentForm />
         <AdminForm />
         <UserForm />
+        <TournamentLogin />
+        <TournamentRegister />
       </div>
 
     </div>
