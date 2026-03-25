@@ -1,12 +1,62 @@
 .navbar {
-    display:flex;
-    justify-content: space-between;
-    background: #f5f5f5;
-    padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #050816;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.navbar a {
-    margin-left: 15px;
-    text-decoration: none;
-    color: black;
+.logo h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 16px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background: #8b5cf6;
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #6d28d9, #8b5cf6);
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
 }

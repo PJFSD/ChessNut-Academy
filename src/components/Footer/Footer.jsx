@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-container">
 
           <div className="footer-col">
-            <h3>ChessNut Academy</h3>
+            <h3>Austin Grandmaster Chess Academy</h3>
             <ul>
               <li>Home</li>
               <li>Courses & Plans</li>
@@ -66,7 +66,7 @@ const Footer = () => {
 
         
         <div className="footer-bottom">
-          <p>@ 2025 by ChessNut Academy.</p>
+          <p>@ 2025 by Austin Grandmaster Chess Academy.</p>
         </div>
 
       </footer>
