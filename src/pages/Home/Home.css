@@ -1,46 +1,60 @@
 /* ================= HERO SECTION ================= */
 .hero {
   height: 90vh;
-  background: radial-gradient(circle at top right, #1a0b2e, #050816);
+
+  /* Light green + white gradient */
+  background: linear-gradient(
+    135deg,
+    #eafff3 0%,
+    #d1fae5 40%,
+    #ffffff 100%
+  );
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
+
+  color: #111827;
   text-align: center;
   padding: 20px;
 }
 
+/* Heading */
 .hero h1 {
   font-size: 64px;
   font-weight: 700;
   line-height: 1.2;
+  color: #111827;
 }
 
+/* Highlight */
 .hero span {
-  color: #8b5cf6;
+  color: #7c3aed;
 }
 
+/* Paragraph */
 .hero p {
   margin-top: 20px;
   max-width: 650px;
   font-size: 16px;
-  color: #d1d5db;
+  color: #374151;
   line-height: 1.6;
 }
 
+/* Buttons */
 .hero-buttons {
   margin-top: 35px;
   display: flex;
   gap: 20px;
 }
 
-/* Buttons */
+/* Join button */
 .join-btn {
   padding: 14px 28px;
   border: none;
   border-radius: 12px;
-  background: #22c55e;
+  background: #16a34a;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -49,9 +63,10 @@
 
 .join-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(34, 197, 94, 0.5);
+  box-shadow: 0 8px 20px rgba(22, 163, 74, 0.4);
 }
 
+/* Coach button */
 .coach-btn {
   padding: 14px 28px;
   border: none;
@@ -65,7 +80,7 @@
 
 .coach-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.5);
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4);
 }
 
 /* ================= STATS SECTION ================= */
@@ -75,9 +90,10 @@
   gap: 30px;
   padding: 80px 20px 60px;
 
-  background: #050816;
+  /* Light continuation background */
+  background: linear-gradient(to bottom, #eafff3, #ffffff);
 
-  /* 🔥 Overlap effect */
+  /* Overlap effect */
   margin-top: -120px;
 
   flex-wrap: wrap;
@@ -92,39 +108,36 @@
   border-radius: 20px;
   text-align: center;
 
-  /* Glass effect */
-  background: rgba(255, 255, 255, 0.03);
+  /* Clean white card */
+  background: #ffffff;
 
-  /* Visible border */
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  /* Soft border */
+  border: 1px solid #e5e7eb;
 
-  /* Shadow */
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-
-  backdrop-filter: blur(10px);
+  /* Light shadow */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 
   transition: all 0.3s ease;
 }
 
 /* Hover */
 .stat-box:hover {
-  transform: translateY(-10px) scale(1.03);
-  border-color: rgba(139, 92, 246, 0.6);
-  box-shadow: 0 15px 40px rgba(139, 92, 246, 0.25);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
 /* Number */
 .stat-box h2 {
   font-size: 36px;
   font-weight: 700;
-  color: #8b5cf6;
+  color: #16a34a;
   margin-bottom: 10px;
 }
 
 /* Text */
 .stat-box p {
   font-size: 13px;
-  color: #9ca3af;
+  color: #4b5563;
   letter-spacing: 1px;
 }
 
